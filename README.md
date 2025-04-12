@@ -11,17 +11,17 @@ pip install torch torch_geometric
 # For CUDA support (if you have NVIDIA GPU)
 pip install torch torch_geometric --extra-index-url https://download.pytorch.org/whl/cu118
 
-#2 Example of training and testing for Edge Weight Prediction is RR-GNN-GAE_DIGAE.ipynb and RR-GNN_LGNN.ipynb
+# Example of training and testing for Edge Weight Prediction is RR-GNN-GAE_DIGAE.ipynb and RR-GNN_LGNN.ipynb
 
-#3 Example of training and testing  for Node Classification is RR-NodeClassficationF1.py
+# Example of training and testing  for Node Classification is RR-NodeClassficationF1.py
 
 
-#4 Node Classification Example：
+# Node Classification Example：
 
 python RR-NodeClassficationF1.py
 
 
-#5 Dataset Example:
+# Dataset Example:
 
 
 # Traffic Network Datasets Specification
@@ -58,17 +58,8 @@ python RR-NodeClassficationF1.py
 **Location**: Chicago, Illinois, USA  
 **Use Cases**: Large-scale network analysis, transit optimization  
 
-### Key Features  
-- **Nodes**: Transit stations (1,000s)  
-  - Attributes: Ridership, geographic coordinates  
-- **Edges**: Transit routes (subway/bus lines)  
-  - Weighted by: Frequency, passenger load  
-- **Applications**:  
-  - High-dimensional edge regression (e.g., `RR-GNN_LGNN.ipynb`)  
-  - Critical node detection  
-
-### Technical Highlights  
-- Large-scale network tests model scalability  
-- Multimodal features (temporal + geospatial)  
-- Suitable for hybrid architectures (GNN+Transformer)  
-=
+Key Statistics:
+Nodes: 933 zones
+Edges: 2,950 links
+Density: ~0.68%
+Avg Degree: 6.32
