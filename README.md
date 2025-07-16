@@ -1,6 +1,6 @@
 
 
-# 🚀 Getting Started with RR-GCN
+# 🚀 Getting Started with RR-GCN (offical implementation of UAI2025 paper: Residual Reweighted Conformal Prediction for Graph Neural Networks)
 
 ## 1. Environment Setup 💻
 First things first - let's get your tools ready! 
